@@ -42,8 +42,8 @@
            <td>'.$Mobile.'</td>
            <td>'.$Password.'</td>
            <td>
-           <button class="btn btn-primary"><a href="" class="text-light">Update</a></button>
-           <button class="btn btn- danger"><a href="" >Delete</a></button>
+           <button class="btn btn-primary"><a href="update.php?updateid='.$Id.'" class="text-light">Update</a></button>
+           <button class="btn btn-danger"><a href="delete.php?deleteid='.$Id.'" class="text-light">Delete</a></button>
             </td>
          </tr>';
         }
